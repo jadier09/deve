@@ -434,10 +434,10 @@ def ytdl(update,context):
 
     ddl(upd,format['url'],None,file_name,message)
 
-
+    $ heroku git: remoto -a jfsgju
     pass
-
-
+    $ cd my-project/ $ git init $ heroku git:remote -a jfsgju
+    $ git add . $ git commit -am "make it better" $ git push heroku master
 def main() -> None:
     try:
         updater = Updater(config.BOT_TOKEN)
